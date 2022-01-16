@@ -64,6 +64,10 @@
 <p align="left">
 <img src="./readme_assets/5.jpg" width="60%"></p>
 
+5) Видеоподтверждения ДТП
+<p align="left">
+<img src="./readme_assets/proof.jpg" width="60%"></p>
+
 <a name="как_это_работает"></a> 
 ## ***Как это работает?***
 
@@ -132,7 +136,7 @@ Confusion Matrix:
 - Установить пакеты из requirements.txt:
 
   `pip install –r requirements.txt`
-- Скачать файлы моделей по [ссылке] (https://drive.google.com/drive/folders/1SnG5JwYExb_aabh7PZWeJ14M50yia6uv?usp=sharing)
+- Скачать файлы моделей по [ссылке](https://drive.google.com/drive/folders/1SnG5JwYExb_aabh7PZWeJ14M50yia6uv?usp=sharing)
 - Перенести их в weights
 
 <a name="проблемы"></a> 
