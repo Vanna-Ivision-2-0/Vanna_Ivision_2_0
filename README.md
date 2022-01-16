@@ -57,18 +57,18 @@
 <p align="left">
 <img src="./readme_assets/2.jpg" width="60%"></p>
 
-3) Запуск детектора объектов для всех директорий из videos2images 
+3) Запуск детектора объектов для всех директорий из videos2images. 
 <p align="left">
 <img src="./readme_assets/3.jpg" width="60%"></p>
 
-4) Результаты работы детектора объектов
+4) Результаты работы детектора объектов.
 <p align="left">
 <img src="./readme_assets/4.jpg" width="60%"></p>
 
 <p align="left">
 <img src="./readme_assets/5.jpg" width="60%"></p>
 
-5) Видеоподтверждения ДТП
+5) Видеоподтверждения ДТП.
 <p align="left">
 <img src="./readme_assets/proof.jpg" width="40%"></p>
 
