@@ -1,4 +1,4 @@
-<h1 align="center">🚒 Accident Detector 🚒</h1>
+<h1 align="center">🚒Accident Detector🚒</h1>
 <p align="center">  
  
 <img src="https://gpvc.arturio.dev/Vanna-Ivision-2-0">
