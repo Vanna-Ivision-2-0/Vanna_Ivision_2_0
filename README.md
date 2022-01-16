@@ -29,7 +29,6 @@
 - [Как это работает?](#как_это_работает)
 - [О проекте и технологиях](#о_проекте_и_технологиях)
   - [Архитектура](#архитектура)
-  - [Реализованные модели](#реализованные_модели)
   - [Computer Vision & Machine Learning](#computer_vision_and_machine_learning)
   - [Результаты обучения модели](#обучение_модели)
 - [Installation](#installation)
@@ -85,9 +84,6 @@
 <p align="left">
 <img src="./readme_assets/Architecture.jpg" width="30%"></p> 
 
-<a name="реализованные_модели"></a> 
-### Реализованные модели
-
 <a name="computer_vision_and_machine_learning"></a> 
 ### Computer Vision & Machine Learning
 
@@ -124,10 +120,6 @@ Confusion Matrix:
 <img src="./readme_assets/confusionmatrix.jpg" width="60%"></p>
 
 
-
-<a name="подводные_камни"></a> 
-### ***Подводные камни***
-
 <a name="installation"></a> 
 ## ***Installation***
 
@@ -136,6 +128,7 @@ Confusion Matrix:
   `pip install –r requirements.txt`
 - Скачать файлы моделей по [ссылке](https://drive.google.com/drive/folders/1SnG5JwYExb_aabh7PZWeJ14M50yia6uv?usp=sharing)
 - Перенести их в weights
+Протестировано для torch 1.9.0+cu111
 
 <a name="проблемы"></a> 
 ## ***Возможные проблемы***
