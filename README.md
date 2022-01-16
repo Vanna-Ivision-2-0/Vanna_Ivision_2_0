@@ -42,7 +42,7 @@
 
 Результаты работы видео с ДТП №1  |  Результаты работы видео с ДТП №2
 :-------------------------:|:-------------------------:
-![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/dtp.gif)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/dtp2.gif)
+![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/blob/main/readme_assets/dtp.gif)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/blob/main/readme_assets/dtp2.gif)
 
 
 <a name="как_пользоваться"></a> 
@@ -107,10 +107,9 @@
 <p align="left">
 <img src="./readme_assets/метрики оценивания.jpg" width="60%"></p> 
 
-а  |  б
+![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/blob/main/readme_assets/precconf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/blob/main/readme_assets/recallconf.jpg)
 :-------------------------:|:-------------------------:
-![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/precconf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/recallconf.jpg)
-![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/F1conf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/precrec.jpg)
+![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/blob/main/readme_assets/F1conf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/blob/main/readme_assets/precrec.jpg)
 
 *Результаты работы на валидационной выборке:*
 <p align="left">
