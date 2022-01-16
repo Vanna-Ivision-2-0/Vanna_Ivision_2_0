@@ -17,8 +17,8 @@
 
 <img src="https://img.shields.io/github/issues/Vanna-Ivision-2-0/Vanna_Ivision_2_0.svg">
 
-<img src="https://img.shields.io/github/watchers/Vanna-Ivision-2-0/Vanna_Ivision_2_0.svg?style=social&label=Watch&maxAge=2592000">
-
+<img src="https://img.shields.io/github/watchers/Vanna-Ivision-2-0/Vanna_Ivision_2_0.svg?style=social&label=Watch">
+ 
 </p>
 
 <p align="center"><img  src="./readme_assets/logo_proj1.png" width="30%"></p>
