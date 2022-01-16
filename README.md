@@ -46,6 +46,25 @@
 <a name="как_пользоваться"></a> 
 ## ***Как пользоваться сервисом***
 
+1) Помещаем видео в папку videos.
+<p align="left">
+<img src="./readme_assets/1.jpg" width="40%"></p>
+
+2) Преобразовываем видео в последовательность изображений (доступен Progress Bar).
+<p align="left">
+<img src="./readme_assets/2.jpg" width="60%"></p>
+
+3) Запуск детектора объектов для всех директорий из videos2images 
+<p align="left">
+<img src="./readme_assets/3.jpg" width="60%"></p>
+
+4) Результаты работы детектора объектов
+<p align="left">
+<img src="./readme_assets/4.jpg" width="60%"></p>
+
+<p align="left">
+<img src="./readme_assets/5.jpg" width="60%"></p>
+
 <a name="как_это_работает"></a> 
 ## ***Как это работает?***
 
