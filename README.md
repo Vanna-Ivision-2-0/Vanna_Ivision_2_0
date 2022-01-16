@@ -40,6 +40,11 @@
 Программа реализована для распознавания ДТП и специальной техники на видеозаписях с камер наружного наблюдения. Возможна поддержка в "real-time" (онлайн режим).
 С такой программой пользователь сможет заранее проверить ситуацию на дорогах, причину возникновения "пробки" и построить для себя удобный вариант маршрута.
 
+Результаты работы видео с ДТП №1  |  Результаты работы видео с ДТП №2
+:-------------------------:|:-------------------------:
+![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/dtp.gif)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/dtp2.gif)
+
+
 <a name="как_пользоваться"></a> 
 ## ***Как пользоваться программой***
 
@@ -128,6 +133,7 @@ Confusion Matrix:
   `pip install –r requirements.txt`
 - Скачать файлы моделей по [ссылке](https://drive.google.com/drive/folders/1SnG5JwYExb_aabh7PZWeJ14M50yia6uv?usp=sharing)
 - Перенести их в weights
+
 Протестировано для torch 1.9.0+cu111
 
 <a name="проблемы"></a> 
@@ -144,3 +150,6 @@ python detect.py  --conf-thres 0.6
 Теперь python is_dtp.py --thresh 7 --conf 0.6
 - В случае, если происходят ложные срабатывания, то увеличиваем параметры --thresh до 15-20 или
  --conf до 0.75-0.85.
+
+Повторить все шаги выше, используя вторую модель из weights (yolo_hard_best.pt) для detect.py.
+python detect.py --weights “weights/ yolo_hard_best.pt”
