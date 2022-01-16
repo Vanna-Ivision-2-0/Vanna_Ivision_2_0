@@ -31,8 +31,7 @@
   - [Архитектура](#архитектура)
   - [Реализованные модели](#реализованные_модели)
   - [Computer Vision & Machine Learning](#computer_vision_and_machine_learning)
-  - [Обучение модели](#обучение_модели)
-  - ["Подводные камни"](#подводные_камни)
+  - [Результаты обучения модели](#обучение_модели)
 - [Installation](#installation)
 - [Возможные проблемы](#проблемы)
 
@@ -101,7 +100,7 @@
 - [Roboflow](https://roboflow.com/)
 
 <a name="обучение_модели"></a> 
-### Обучение модели
+### Результаты обучения модели
 
 *Метрики оценивания:*
 <p align="left">
@@ -112,10 +111,9 @@
 ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/precconf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/recallconf.jpg)
 ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/F1conf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/precrec.jpg)
 
-*Детекция объектов:*
-Детекция с вероятностью    |  Детекция без вероятности
-:-------------------------:|:-------------------------:
-![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/detection.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/detectionwithoutnumbers.jpg)
+*Результаты работы на валидационной выборке:*
+<p align="left">
+<img src="./readme_assets/detection.jpg" width="60%"></p>
 
 *Train metrics:*
 <p align="left">
