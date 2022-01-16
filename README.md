@@ -91,5 +91,11 @@
 <a name="installation"></a> 
 ## ***Installation***
 
+- Установить пакеты из requirements.txt:
+
+  `pip install –r requirements.txt`
+- Скачать файлы моделей по ссылке (https://drive.google.com/drive/folders/1SnG5JwYExb_aabh7PZWeJ14M50yia6uv?usp=sharing)
+- Перенести их в weights
+
 <a name="проблемы"></a> 
 ## ***Возможные проблемы***
