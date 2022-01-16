@@ -79,6 +79,12 @@
 <a name="обучение_модели"></a> 
 ### Обучение модели
 
+Парковка на пр. Ленина             |  Парковка на ул. Анохина
+:-------------------------:|:-------------------------:
+![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/precconf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/recallconf.jpg)
+![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/F1conf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/precrec.jpg)
+
+
 <a name="подводные_камни"></a> 
 ### ***Подводные камни***
 
