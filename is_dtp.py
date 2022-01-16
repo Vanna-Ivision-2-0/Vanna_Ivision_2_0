@@ -11,6 +11,13 @@ if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))  # add ROOT to PATH
 ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
 
+def put_dtp_label(img):
+    fontScale = 4
+    color = (0, 255, 255)
+    org = (100, 150)
+    return cv2.putText(img, 'DTP', org, cv2.FONT_HERSHEY_SIMPLEX,
+                        fontScale, color, 6, cv2.LINE_AA)
+
 def load_labels(path):
     confs = []
     for label in os.listdir(path):
@@ -80,6 +87,7 @@ def save_video(frames, save_path):
         out = cv2.VideoWriter(save_path, cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h))
 
         for frame in frames:
+            frame = put_dtp_label(frame)
             out.write(frame)
         out.release()
     except Exception as e:
