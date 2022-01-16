@@ -79,10 +79,28 @@
 <a name="обучение_модели"></a> 
 ### Обучение модели
 
-Парковка на пр. Ленина             |  Парковка на ул. Анохина
+*Метрики оценивания:*
+<p align="left">
+<img src="./readme_assets/метрики оценивания.jpg" width="60%"></p> 
+
+а  |  б
 :-------------------------:|:-------------------------:
 ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/precconf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/recallconf.jpg)
 ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/F1conf.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/precrec.jpg)
+
+*Детекция объектов:*
+Детекция с вероятностью    |  Детекция без вероятности
+:-------------------------:|:-------------------------:
+![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/detection.jpg)  |  ![](https://github.com/Vanna-Ivision-2-0/Vanna_Ivision_2_0/tree/main/readme_assets/detectionwithoutnumbers.jpg)
+
+*Train metrics:*
+<p align="left">
+<img src="./readme_assets/trainmetrix.jpg" width="60%"></p>
+
+Confusion Matrix:
+<p align="left">
+<img src="./readme_assets/confusionmatrix.jpg" width="60%"></p>
+
 
 
 <a name="подводные_камни"></a> 
@@ -99,3 +117,15 @@
 
 <a name="проблемы"></a> 
 ## ***Возможные проблемы***
+
+В случае, если алгоритм не определил ДТП, возможны следующие улучшения:
+- Увеличения количество изображений при преобразовании из видео в изображения. 
+python videos2imgs.py  --when 5
+Таким образом, будет сохранен каждый 5-ый кадр, мы увеличим количество изображений в папках втрое. Повторить шаги, начиная с detect.
+- Если ролики короткие и не применяли шаг выше, то следует изменить параметр --thresh для is_dtp.py на 7 или 5.
+python is_dtp.py --thresh 7
+- Если это не помогло, то изменяем confidence threshold для детектора объектов на 0.6
+python detect.py  --conf-thres 0.6
+Теперь python is_dtp.py --thresh 7 --conf 0.6
+- В случае, если происходят ложные срабатывания, то увеличиваем параметры --thresh до 15-20 или
+ --conf до 0.75-0.85.
