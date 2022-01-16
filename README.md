@@ -153,3 +153,10 @@ python detect.py  --conf-thres 0.6
 
 Повторить все шаги выше, используя вторую модель из weights (yolo_hard_best.pt) для detect.py.
 python detect.py --weights “weights/ yolo_hard_best.pt”
+
+##
+[![создано](https://github.com/Vanna-IVision/IVISION_HACK/blob/main/readme_asserts/created%20by-%20Anna-orange.svg)](https://github.com/elladiell) | [![создано](https://github.com/Vanna-IVision/IVISION_HACK/blob/main/readme_asserts/created%20by-Victor-blue.svg)](https://github.com/victor30608)
+
+
+<p align="right" ><img src="./readme_assets/logo.png" width="20%"></p>
+
