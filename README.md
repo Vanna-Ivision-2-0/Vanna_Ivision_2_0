@@ -71,6 +71,7 @@
 5) Видеоподтверждения ДТП.
 <p align="left">
 <img src="./readme_assets/proof.jpg" width="40%"></p>
+UPDATE: is_dtp_new.py
 
 <a name="как_это_работает"></a> 
 ## ***Как это работает?***
