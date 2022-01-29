@@ -69,9 +69,9 @@
 <img src="./readme_assets/5.jpg" width="60%"></p>
 
 5) Видеоподтверждения ДТП.
+python is_dtp_new.py
 <p align="left">
 <img src="./readme_assets/proof.jpg" width="40%"></p>
-UPDATE: is_dtp_new.py
 
 <a name="как_это_работает"></a> 
 ## ***Как это работает?***
