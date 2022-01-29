@@ -153,7 +153,7 @@ def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'weights/yolo_last_best.pt', help='model path(s)')
     parser.add_argument('--source', type=str, default=ROOT / 'videos2images', help='path to folders with images')
-    parser.add_argument('--conf-thres', type=float, default=0.7, help='confidence threshold')
+    parser.add_argument('--conf-thres', type=float, default=0.2, help='confidence threshold')
     parser.add_argument('--iou-thres', type=float, default=0.45, help='NMS IoU threshold')
     parser.add_argument('--max-det', type=int, default=1000, help='maximum detections per image')
     parser.add_argument('--device', default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
@@ -167,12 +167,26 @@ def parse_opt():
 def main(opt):
     check_requirements(exclude=('tensorboard', 'thop'))
     source_path = opt.source
+    weights_sp = r'weights/yolo_hard_best.pt'
+    weights_ocl = r'weights/yolo_ocl_best.pt'
     tmp_opt = vars(opt)
     for file in tqdm(os.listdir(opt.source)):
         tmp_opt['source'] = os.path.join(source_path, file)
         tmp_opt['name'] = file
+        tmp_opt['project'] = os.path.join(ROOT,'detection_sp')
+        tmp_opt['weights'] = os.path.join(ROOT, weights_sp)
         run(**tmp_opt)
 
+    print(vars(opt))
+    opt.source = source_path
+    tmp_opt = vars(opt)
+    print()
+    for file in tqdm(os.listdir(opt.source)):
+        tmp_opt['source'] = os.path.join(source_path, file)
+        tmp_opt['name'] = file
+        tmp_opt['project'] = os.path.join(ROOT,'detection_ocl')
+        tmp_opt['weights'] = os.path.join(ROOT, weights_ocl)
+        run(**tmp_opt)
 
 if __name__ == "__main__":
     opt = parse_opt()
